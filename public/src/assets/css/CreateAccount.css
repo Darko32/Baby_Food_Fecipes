@@ -1,0 +1,41 @@
+.account_left {
+  width: 41%;
+  margin-right: 7%;
+}
+
+.account_right {
+  width: 52%;
+  display: flex;
+}
+
+.page_title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 51px;
+  height: 48px;
+}
+
+.page_title .profile_line {
+  width: 972px;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.page_title .profile_line hr{
+  height: 2px;
+  background-color: #D8D8D8;
+  border: none;
+  
+}
+
+.page_title .page_title_left h2 {
+  color: #96bb36;
+  opacity: 1;
+  width: 260px;
+  font-size: 35px;
+}
+
+.profile p {
+  color: #a5a5a5;
+  opacity: 1;
+}

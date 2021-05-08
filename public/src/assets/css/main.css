@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  background: var(--softwhite) 0% 0% no-repeat padding-box;
+}
+
+:root {
+  --color-orange: #f0972a;
+  --color-gray: #a5a5a5;
+  --color-lgray: #f0efea;
+  --color-green: #96bb36;
+  --color-rose: #f0efea;
+  --color-dgray:#626262;
+  
+}
+
+
+body {
+  font-family: "Roboto Slab", serif;
+  background: #f8f7f2;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f8f7f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+/* GLOBAL ELEMENTS */
+/* Input design */
+input {
+  color: var(--color-gray);
+  background: var(--color-rose);
+  border: 1px solid var(--color-gray);
+  border-radius: 5px;
+  height: 40px;
+  width: 294px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Green button */
+.btn-green {
+  width: 178.85px;
+  height: 44px;
+  border-radius: 5px;
+  background-color: #96bb36;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.btn-save {
+  width: 124.37px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #96bb36;
+  color: white;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+/* Button center */
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* White button border */
+.btn_border {
+  color: var(--color-gray);
+  width: 107.79px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid var(--color-gray);
+}

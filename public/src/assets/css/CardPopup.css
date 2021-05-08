@@ -1,0 +1,131 @@
+.card_popup {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background: rgba(255,255,255,.6);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    position: fixed;
+    top:0;
+    left:0;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.card_popup .popup_content {
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+    height: 600px;
+    margin:0 auto;
+    overflow: hidden;
+    padding:20px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px #00000012;
+}
+
+
+.popup_content .popup_title {
+    display: flex;
+    font-size:38px;
+    color:var(--color-orange);
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.icon_back {
+    margin-left: auto;
+}
+.icon_back button{
+    
+    color: #a5a5a5;
+    font-size: 40px;
+    font-weight: 300;
+    transform: rotateZ(45);
+
+}
+
+
+.popup_content .popup_container {
+    display: flex;
+    
+}
+
+.popup_content .popup_container h2 {
+    margin:0;
+}
+
+.popup_content .popup_container p,.card_popup .popup_container span {
+    word-break: break-word;
+    color:var(--color-gray);
+}
+
+.popup_content .popup_container .popup_left {
+    width: calc(45% - 2%);
+    margin-right:2%;
+}
+
+.popup_container .popup_left .popup_img {
+    height: 243px;
+}
+.popup_container .popup_left .popup_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.popup_left .category {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.popup_left .comments {
+    display: flex;
+}
+ .comments_left span {
+    color: #626262;
+ }
+.popup_left .category h2 {
+    font-size: 18px;
+    color: var(--color-green);
+}
+.category .icon_category{
+    margin-left: auto;
+    font-size: 14px;
+    color: white;
+    padding: 12px 3px;
+    border-radius: 30px;
+    background: var(--color-green);
+    font-weight: 400;
+}
+
+.category .icon_category h2{
+    color: white;
+    font-weight: 400;
+}
+
+
+/* .popup_left .icon_bottom {
+    display: flex;
+} */
+
+
+.card_popup .popup_container .popup_right {
+    width: 55%;
+}
+
+.card_popup .popup_container .popup_right h2 {
+    margin-top:0;
+    color: var(--color-green);
+}
+
+.card_popup .popup_container .popup_right p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical ;
+
+}

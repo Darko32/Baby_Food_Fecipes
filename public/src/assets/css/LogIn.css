@@ -1,0 +1,85 @@
+.login_content {
+  display: flex;
+}
+
+.login_left {
+  width: 50%;
+}
+
+.login_left p {
+  color: #a5a5a5;
+  opacity: 1;
+}
+
+.login_right {
+  width: 50%;
+}
+
+.title_contenet {
+  font: normal normal bold 46px/60px Roboto Slab;
+}
+
+.title_span {
+  color: #F0972A;
+}
+
+.login_right .inner-column {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.login_right label {
+  display: block;
+}
+
+.login_right label:first-child {
+  margin-bottom: 15px;
+}
+
+.login_right label input {
+  width: 294px;
+  height: 40px;
+}
+
+.login_right label span {
+  width: 294px;
+  display: block;
+  margin-bottom: 10px;
+  color: #f0972a;
+}
+
+.login_right button {
+  width: 122.94px;
+  height: 40px;
+  display: block;
+  margin-top: 38px;
+}
+
+/* Broj na redovi - tekst */
+/* {
+overflow:hidden;
+display: -webkit-box;
+-webkit-line-clamp: 5;
+-webkit-box-orient: vertical;
+}  */
+
+.page_title .login_line {
+  width: 1126px;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.page_title .login_line hr {
+  height: 2px;
+  background-color: #D8D8D8;
+  border: none;
+}
+
+.page_title .page_title_login h2 {
+  color: #96bb36;
+  opacity: 1;
+  font-size: 35px;
+}
